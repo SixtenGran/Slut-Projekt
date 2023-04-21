@@ -1,0 +1,26 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background-image: url("bg.png"); 
+}
+
+.container
+{
+	margin-top: 70px;
+	background-color: white;
+	padding: 30px;
+	box-shadow: 10px 10px 10px 10px;
+	border-radius: 25px;
+	font-size: 18px;
+}
+
+.logo
+{
+	width: 70px;
+}
+
+.navbar
+{
+	font-size: 25px;
+}
