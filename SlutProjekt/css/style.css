@@ -2,10 +2,25 @@ body
 {
 	margin: 0px;
 	padding: 0px;
-	background-image: url("bg.png"); 
+	background-image: url("bg.png");
+	background-size: cover; 
 }
 
-.container
+li, a, button
+{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+a:is(:link, :active, :visited).active
+{
+	color: white;
+	border-radius: 25px;
+}
+
+.welcome
 {
 	margin-top: 70px;
 	background-color: white;
@@ -18,9 +33,80 @@ body
 .logo
 {
 	width: 70px;
+	border-radius: 25px;
+	margin-left: 5px;
 }
 
 .navbar
 {
-	font-size: 25px;
+	box-shadow: 5px 5px 10px 10px;
+	border-radius: 25px;
+	font-size: 18px;
+	padding-left: 5px;
+}
+
+.div1-welcome
+{
+	margin-top: 70px;
+	margin-right: 370px;
+	margin-bottom: 50px; 
+	background-color: white;
+	padding: 10px;
+	box-shadow: 10px 10px 10px 10px;
+	border-radius: 25px;
+	font-size: 18px;
+	width: 550px;
+	float: right;
+	
+}
+
+.div2-welcome
+{
+	margin-top: 70px;
+	margin-left: 370px;
+	background-color: white;
+	padding: 15px;
+	box-shadow: 10px 10px 10px 10px;
+	border-radius: 25px;
+	font-size: 18px;
+	width: 550px;
+	float: left;
+	
+}
+
+.div1-about
+{
+	margin-top: 70px;
+	margin-right: 370px;
+	margin-bottom: 50px; 
+	background-color: white;
+	padding: 15px;
+	box-shadow: 10px 10px 10px 10px;
+	border-radius: 25px;
+	font-size: 18px;
+	width: 550px;
+	float: right;
+	
+}
+
+.div2-about
+{
+	margin-top: 70px;
+	margin-left: 370px;
+	background-color: white;
+	padding: 15px;
+	box-shadow: 10px 10px 10px 10px;
+	border-radius: 25px;
+	font-size: 18px;
+	width: 550px;
+	float: left;
+	
+}
+
+.spelbilder
+{
+	padding: 7px;
+	width: 260px;
+	border-image-repeat: 5px;
+	border-radius: 10px;
 }
