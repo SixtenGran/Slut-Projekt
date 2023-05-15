@@ -3,26 +3,26 @@ body
 	margin: 0px;
 	padding: 0px;
 	background-image: url("bg.png");
-	background-size: cover; 
+	overflow: scroll;
+	background-repeat: fixed;
 }
 
 li, a, button
 {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
-	font-size: 20px;
+	font-size: 25px;
 	text-decoration: none;
 }
 
 a:is(:link, :active, :visited).active
 {
 	color: white;
-	border-radius: 25px;
 }
 
 .welcome
 {
-	margin-top: 70px;
+	margin-top: 140px;
 	background-color: white;
 	padding: 30px;
 	box-shadow: 10px 10px 10px 10px;
@@ -43,6 +43,19 @@ a:is(:link, :active, :visited).active
 	border-radius: 25px;
 	font-size: 18px;
 	padding-left: 5px;
+}
+
+.navbar-pos
+{
+	position: fixed;
+	top: 0;
+	margin-left: 360px; 
+	transition: top 0.3s;
+}
+
+.navbar-nav
+{
+	margin-left: auto;
 }
 
 .div1-welcome
@@ -76,7 +89,7 @@ a:is(:link, :active, :visited).active
 
 .div1-about
 {
-	margin-top: 70px;
+	margin-top: 140px;
 	margin-right: 370px;
 	margin-bottom: 50px; 
 	background-color: white;
@@ -105,7 +118,7 @@ a:is(:link, :active, :visited).active
 
 .div1-prep
 {
-	margin-top: 70px;
+	margin-top: 130px;
 	margin-left: 40px;
 	background-color: white;
 	padding: 20px;
@@ -119,7 +132,7 @@ a:is(:link, :active, :visited).active
 
 .div2-textadv
 {
-	margin-top: 70px;
+	margin-top: 130px;
 	margin-left: 40px;
 	float: none;
 	background-color: white;
@@ -133,7 +146,7 @@ a:is(:link, :active, :visited).active
 
 .div3-arcade
 {
-	margin-top: 70px;
+	margin-top: 130px;
 	margin-right: 40px;
 	margin-bottom: 50px; 
 	background-color: white;
@@ -144,6 +157,39 @@ a:is(:link, :active, :visited).active
 	width: 570px;
 	float: right;
 	
+}
+
+.div5-final
+{
+	margin-top: 80px;
+	margin-right: 40px;
+	margin-bottom: 50px; 
+	background-color: white;
+	padding: 20px;
+	box-shadow: 10px 10px 10px 10px;
+	border-radius: 25px;
+	font-size: 18px;
+	width: 570px;
+	float: right;
+}
+
+.div35-gamejam-bild
+{
+	margin: 15px;
+	margin-left: 60px;
+	width: 430px;
+	border-radius: 25px;
+}
+
+.toolandlang
+{
+	margin: 40px 40px 40px 40px;
+	background-color: white;
+	padding: 20px;
+	box-shadow: 10px 10px 10px 10px;
+	border-radius: 25px;
+	font-size: 18px;
+	float: right;
 }
 
 .spelbilder
