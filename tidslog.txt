@@ -1,0 +1,7 @@
+Apr 21, 2023 Min första comit. Jag har börjat på första sidan, har fortfarande lite kvar att jobba på. Jag har jobbat ca 2 timmar med detta 
+
+Apr 24, 2023 Det här är min andra commit. Jag har gjort klart första sidan helt och är nöjd med den    (tog ungefär 2 timmar till), jag har även börjat på "About" sidan där jag kommit en bit.
+
+May 15, 2023 Nu har jag gjort sidan för Curriculum samt ändrat logan uppe på navbaren då jag tyckte att det blev mycket bättre med den utan någon svart bakgrund.
+
+May 15, 2023 under denna commit har jag finslipat min navbar. Jag har gjord den stationär vid toppen av sidan och flUttat texten till vänster för att jag tyckte att det vart snyggare.
