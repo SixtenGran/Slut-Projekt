@@ -2,9 +2,9 @@ body
 {
 	margin: 0px;
 	padding: 0px;
-	background-image: url("bg.png");
+	background: url("bg.png") fixed center;
 	overflow: scroll;
-	background-repeat: fixed;
+	background-repeat: no-repeat;
 }
 
 li, a, button
@@ -121,7 +121,7 @@ a:is(:link, :active, :visited).active
 	margin-top: 130px;
 	margin-left: 40px;
 	background-color: white;
-	padding: 20px;
+	padding: 30px;
 	box-shadow: 10px 10px 10px 10px;
 	border-radius: 25px;
 	font-size: 18px;
@@ -136,7 +136,7 @@ a:is(:link, :active, :visited).active
 	margin-left: 40px;
 	float: none;
 	background-color: white;
-	padding: 20px;
+	padding: 30px;
 	box-shadow: 10px 10px 10px 10px;
 	border-radius: 25px;
 	font-size: 18px;
@@ -150,7 +150,7 @@ a:is(:link, :active, :visited).active
 	margin-right: 40px;
 	margin-bottom: 50px; 
 	background-color: white;
-	padding: 20px;
+	padding: 30px;
 	box-shadow: 10px 10px 10px 10px;
 	border-radius: 25px;
 	font-size: 18px;
@@ -165,7 +165,7 @@ a:is(:link, :active, :visited).active
 	margin-right: 40px;
 	margin-bottom: 50px; 
 	background-color: white;
-	padding: 20px;
+	padding: 30px;
 	box-shadow: 10px 10px 10px 10px;
 	border-radius: 25px;
 	font-size: 18px;
@@ -179,16 +179,62 @@ a:is(:link, :active, :visited).active
 	margin-left: 60px;
 	width: 430px;
 	border-radius: 25px;
+	border: 5px solid;
 }
 
 .toolandlang
 {
 	margin: 40px 40px 40px 40px;
 	background-color: white;
-	padding: 20px;
+	padding: 30px;
 	box-shadow: 10px 10px 10px 10px;
 	border-radius: 25px;
 	font-size: 18px;
+	float: right;
+}
+
+.art
+{
+	margin-top: 70px;
+	margin-left: 40px;
+	margin-bottom: 40px;
+	background-color: white;
+	padding: 15px;
+	box-shadow: 10px 10px 10px 10px;
+	border-radius: 25px;
+	font-size: 18px;
+	width: 672px;
+	float: left;
+}
+
+.div-art1
+{
+	float: left;
+	margin-right: 10px;
+}
+
+.div-art2
+{
+	margin-left: 10px;
+	float: right;
+}
+
+.div-art3
+{
+	margin-left: 205px;
+}
+
+.toolandsoft
+{
+	margin-top: 40px;
+	margin-bottom: 50px;
+	margin-right: 40px; 
+	background-color: white;
+	padding: 15px;
+	box-shadow: 10px 10px 10px 10px;
+	border-radius: 25px;
+	font-size: 18px;
+	width: 1000px;
 	float: right;
 }
 
@@ -196,8 +242,7 @@ a:is(:link, :active, :visited).active
 {
 	padding: 7px;
 	width: 255px;
-	border-image-repeat: 5px;
-	border-radius: 10px;
+	border-radius: 15px;
 }
 
 .map
