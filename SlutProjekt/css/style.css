@@ -22,7 +22,7 @@ a:is(:link, :active, :visited).active
 
 .welcome
 {
-	margin-top: 140px;
+	margin-top: 100px;
 	background-color: white;
 	padding: 30px;
 	box-shadow: 10px 10px 10px 10px;
@@ -43,14 +43,14 @@ a:is(:link, :active, :visited).active
 	border-radius: 25px;
 	font-size: 18px;
 	padding-left: 5px;
+	height: 70px;
 }
 
 .navbar-pos
 {
 	position: fixed;
 	top: 0;
-	margin-left: 360px; 
-	transition: top 0.3s;
+	margin-left: 360px;
 }
 
 .navbar-nav
@@ -60,9 +60,9 @@ a:is(:link, :active, :visited).active
 
 .div1-welcome
 {
-	margin-top: 70px;
+	margin-top: 30px;
 	margin-right: 370px;
-	margin-bottom: 50px; 
+	margin-bottom: 150px; 
 	background-color: white;
 	padding: 10px;
 	box-shadow: 10px 10px 10px 10px;
@@ -75,7 +75,7 @@ a:is(:link, :active, :visited).active
 
 .div2-welcome
 {
-	margin-top: 70px;
+	margin-top: 30px;
 	margin-left: 370px;
 	background-color: white;
 	padding: 15px;
@@ -118,7 +118,7 @@ a:is(:link, :active, :visited).active
 
 .div1-prep
 {
-	margin-top: 130px;
+	margin-top: 90px;
 	margin-left: 40px;
 	background-color: white;
 	padding: 30px;
@@ -132,7 +132,7 @@ a:is(:link, :active, :visited).active
 
 .div2-textadv
 {
-	margin-top: 130px;
+	margin-top: 90px;
 	margin-left: 40px;
 	float: none;
 	background-color: white;
@@ -146,7 +146,7 @@ a:is(:link, :active, :visited).active
 
 .div3-arcade
 {
-	margin-top: 130px;
+	margin-top: 90px;
 	margin-right: 40px;
 	margin-bottom: 50px; 
 	background-color: white;
@@ -161,7 +161,7 @@ a:is(:link, :active, :visited).active
 
 .div5-final
 {
-	margin-top: 80px;
+	margin-top: 40px;
 	margin-right: 40px;
 	margin-bottom: 50px; 
 	background-color: white;
@@ -175,7 +175,7 @@ a:is(:link, :active, :visited).active
 
 .div35-gamejam-bild
 {
-	margin: 15px;
+	margin-top: 30px;
 	margin-left: 60px;
 	width: 430px;
 	border-radius: 25px;
@@ -197,7 +197,7 @@ a:is(:link, :active, :visited).active
 {
 	margin-top: 70px;
 	margin-left: 40px;
-	margin-bottom: 40px;
+	margin-bottom: 140px;
 	background-color: white;
 	padding: 15px;
 	box-shadow: 10px 10px 10px 10px;
@@ -228,7 +228,7 @@ a:is(:link, :active, :visited).active
 {
 	margin-top: 40px;
 	margin-bottom: 50px;
-	margin-right: 40px; 
+	margin-right: 140px; 
 	background-color: white;
 	padding: 15px;
 	box-shadow: 10px 10px 10px 10px;
@@ -245,7 +245,7 @@ a:is(:link, :active, :visited).active
 	border-radius: 15px;
 }
 
-.map
+.karta
 {
 	float: right;
 	width: 260px;
@@ -259,4 +259,36 @@ a:is(:link, :active, :visited).active
 	width: 260px;
 	padding-top: 20px;
 	padding-right: 30px;
+}
+
+.googlemaps-div
+{
+	margin-bottom: 150px;
+	margin-top: 140px;
+	background-color: white;
+	padding: 30px;
+	box-shadow: 10px 10px 10px 10px;
+	border-radius: 25px;
+	font-size: 18px;
+}
+
+.maps
+{
+	border-radius: 17px;
+}
+
+.footer 
+{
+  box-shadow: 10px 10px 10px 10px;	
+  position: fixed;
+  bottom: 0;
+  width: 1990px;
+  height: 90px;
+  background-color: #4d4d4d;
+  color: white;
+}
+
+.contact-follow
+{
+	float: right;	
 }
