@@ -2,6 +2,12 @@ Apr 21, 2023 Min första comit. Jag har börjat på första sidan, har fortfaran
 
 Apr 24, 2023 Det här är min andra commit. Jag har gjort klart första sidan helt och är nöjd med den    (tog ungefär 2 timmar till), jag har även börjat på "About" sidan där jag kommit en bit.
 
-May 15, 2023 Nu har jag gjort sidan för Curriculum samt ändrat logan uppe på navbaren då jag tyckte att det blev mycket bättre med den utan någon svart bakgrund.
+May 5, 2023 Idag har jag gjort klart sidan About och det gick bra hela vägen igenom. Tog ca 3 timmar 
 
-May 15, 2023 under denna commit har jag finslipat min navbar. Jag har gjord den stationär vid toppen av sidan och flUttat texten till vänster för att jag tyckte att det vart snyggare.
+May 15, 2023 Nu har jag gjort sidan för Curriculum samt ändrat logan uppe på navbaren då jag tyckte att det blev mycket bättre med den utan någon svart bakgrund. 
+
+May 15, 2023 Under denna commit har jag finslipat min navbar. Jag har gjord den stationär vid toppen av sidan och flUttat texten till vänster för att jag tyckte att det vart snyggare. Ca 1 timma
+
+May 16, 2023 Under denna commiten så gjorde jag klart sidan Curriculum. Jag hade lite problem med några av div:sen speciellt "Tools and Languages" med det fixade sig i slutändan. Sidan Curruculum tog ca 5 timmar att göra
+
+May 16, 2023 I denna Commiten har jag gjort klart find us sidan och laggt till en footer där jag har Contact och Follow us med facook, discord och gmail loga. Jag har också gjort navbaren lita mindre för att allting ska få plats lite bättre. Find us tog mycket mindra tid än jag trodde att den skulle ta. Tog bara 10 min att göra.
