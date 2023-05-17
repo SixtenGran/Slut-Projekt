@@ -3,9 +3,11 @@ body
 	margin: 0px;
 	padding: 0px;
 	background: url("bg.png") fixed center;
-	overflow: scroll;
-	background-repeat: no-repeat;
-}
+	background-position: center center;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+}	
 
 li, a, button
 {
@@ -30,7 +32,7 @@ a:is(:link, :active, :visited).active
 	font-size: 18px;
 }
 
-.logo
+.nav-logo
 {
 	width: 70px;
 	border-radius: 25px;
@@ -91,7 +93,7 @@ a:is(:link, :active, :visited).active
 {
 	margin-top: 140px;
 	margin-right: 370px;
-	margin-bottom: 50px; 
+	margin-bottom: 130px; 
 	background-color: white;
 	padding: 15px;
 	box-shadow: 10px 10px 10px 10px;
@@ -106,6 +108,7 @@ a:is(:link, :active, :visited).active
 {
 	margin-top: 70px;
 	margin-left: 370px;
+	margin-bottom: 130px;
 	background-color: white;
 	padding: 15px;
 	box-shadow: 10px 10px 10px 10px;
@@ -263,8 +266,8 @@ a:is(:link, :active, :visited).active
 
 .googlemaps-div
 {
-	margin-bottom: 150px;
-	margin-top: 140px;
+	margin-bottom: 140px;
+	margin-top: 130px;
 	background-color: white;
 	padding: 30px;
 	box-shadow: 10px 10px 10px 10px;
@@ -291,4 +294,9 @@ a:is(:link, :active, :visited).active
 .contact-follow
 {
 	float: right;	
+}
+
+.apply
+{
+	
 }
