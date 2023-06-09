@@ -15,7 +15,7 @@
 
   <!-- Navbar -->
   <div class="container navbar-pos">
-  <nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-pos">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-pos">
   <img src="img\logo.png" class="nav-logo">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -47,57 +47,70 @@
   <!-- Form -->
   <div class="container apply">
     <form>
-      <ul>
-        <li>
-          <label for="persnr">Personnummer *</label>
-          <input type="text" placeholder="ÅÅMMDD-XXXX" name="persnr" id="persnr" required></li>
-
-          <li>
-           <label>Förnamn *</label>
-           <input type="text" name="firstname" id="firstname" required>
-         </li>
-         <li>
-           <label>Efternamn *</label>
-           <input type="text" name="Efternamn" id="Efternamn" required>
-         </li>
-         <li>
-           <label>C/o</label>
-           <input type="text" name="co" id="co">
-         </li>
-         <li>
-           <label>Adress *</label>
-           <input type="text" name="address" id="address" required>
-         </li>
-         <li>
-           <label>Postnummer *</label>
-           <input type="text" name="postnr" id="postnr" required>
-         </li>
-         <li>
-           <label>Ort *</label>
-           <input type="text" name="city" id="city" required>
-         </li>
-         <li>
-           <label>Telefon</label>
-           <input type="text" name="phone" id="phone">
-         </li>
-         <li>
-          <td><label>E-post</label>
-            <td><input type="text" name="email" id="email">
-            </li>
-            <li>        
-             <label for="citizenship">Medborgarskap *</label>
-             <select id="country_select" name="country_select" onchange="updatecountry(this.value);">
-              <option value="svenskt"><label>Svensk</label></option>
-              <option value="annat"><label>Annat (ange land)</label></option>
-            </select>
-          </li>
-          <ul>
-          <li>
+      <table>
+      <tr>
+          <td><label for="persnr">Personnummer *</label></td>
+          <td><input type="text" placeholder="ÅÅMMDD-XXXX" name="persnr" id="persnr" required></td>
+      </tr>
+      <tr>
+          <td><label>Förnamn *</label></td>
+          <td><input type="text" name="firstname" id="firstname" required></td>
+      </tr>
+      <tr>
+          <td><label>Efternamn *</label></td>
+          <td><input type="text" name="surname" id="surname" required></td>
+      </tr>
+      <tr>
+          <td><label>C/o</label></td>
+          <td><input type="text" name="co" id="co"></td>
+      </tr>
+      <tr>
+          <td><label>Adress *</label></td>
+          <td><input type="text" name="address" id="address" required></td>
+      </tr>
+      <tr>
+          <td><label>Postnummer *</label></td>
+          <td><input type="text" name="postnr" id="postnr" required></td>
+      </tr>
+      <tr>
+          <td><label>Ort *</label></td>
+          <td><input type="text" name="city" id="city" required></td>
+      </tr>
+      <tr>
+          <td><label>Telefon</label></td>
+          <td><input type="text" name="phone" id="phone"></td>
+      </tr>
+      <tr>
+          <td><label>E-post</label></td>
+          <td><input type="text" name="email" id="email"></td>
+      </tr>
+      <tr>
+          <td><label>Hur vill du bli kontaktad? *</label></td>
+          <td>
+        <select id="contactmethod" name="contactmethod">
+            <option value="telefon"><label>Telefon</label></option>
+            <option value="email"><label>Mail</label></option>
+        </select>
+          </td>
+      </tr>
+      <tr>
+          <td><label for="citizenship">Medborgarskap *</label></td>
+          <td>
+        <select id="country_select" name="country_select" onchange="updatecountry(this.value);">
+            <option value="svenskt"><label>Svenskt</label></option>
+            <option value="annat"><label>Annat (ange land)</label></option>
+        </select>
         <input type="text" placeholder="Land" name="country_input" id="country_input">
-          </li>
-      </ul>
-      <a class="btn btn-secondary" style="margin-top: 30px; margin-left: 40px; width: 130px; height: 40px;" href="apply.html" role="button">Apply</a>
-        </ul>
+          </td>
+      </tr>
+     
+
+        </table>
+        <div class="text-center mt-4">
+      <button class="btn btn-primary">
+          Submit
+        </button>
+        </div>
       </form>
     </div>
     <!-- Forms Slutar -->
